@@ -29,7 +29,7 @@ body:
     attributes:
       label: Environment
       description: |
-        "What environment are you using? Run the following code to get all the relevant information:"
+        What environment are you using? Run the following code to get all the relevant information:
         ```
         using Pkg
         begin

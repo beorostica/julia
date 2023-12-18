@@ -41,9 +41,9 @@ body:
           println("Julia $VERSION")
           # Koma sub-packages
           for (_, pkg) in Pkg.dependencies() 
-	          if occursin("KomaMRI", pkg.name) 
-		          println("$(pkg.name) $(pkg.version)")
-	          end
+            if occursin("KomaMRI", pkg.name) 
+              println("$(pkg.name) $(pkg.version)")
+            end
           end
         end
         ```

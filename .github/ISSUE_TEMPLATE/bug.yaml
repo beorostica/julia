@@ -23,7 +23,7 @@ body:
         and encountered the following error/wrong/unexpected result:
 
         [...]
-      renderer: Markdown
+      render: Markdown
     validations:
       required: true
   - type: textarea

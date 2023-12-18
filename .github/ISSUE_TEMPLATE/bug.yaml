@@ -21,7 +21,6 @@ body:
   
         and encountered the following error/wrong/unexpected result:
         [...]
-      render: Markdown
     validations:
       required: true
   - type: textarea

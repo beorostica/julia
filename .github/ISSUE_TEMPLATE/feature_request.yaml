@@ -3,7 +3,7 @@ about: Suggest a new julia feature
 title: '[FR]: '
 labels: feature
 body:
-   - type: textarea
+  - type: textarea
     id: feature-request
     attributes:
       label: Feature Request

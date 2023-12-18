@@ -30,22 +30,16 @@ body:
       label: Environment
       description: What environment are you using? Run the following code to get all the relevant information ```using Pkg; println("OS $(Base.Sys.MACHINE)"); println("Julia $VERSION"); [println("$(pkg.name) $(pkg.version)") for (_, pkg) in Pkg.dependencies() if occursin("KomaMRI", pkg.name)];```
       placeholder: |
-        Output of 
-        ```
         using Pkg
         begin
-          # OS
-          println("OS $(Base.Sys.MACHINE)")
-          # Julia version
-          println("Julia $VERSION")
-          # Koma sub-packages
-          for (_, pkg) in Pkg.dependencies() 
+          println("OS $(Base.Sys.MACHINE)")    # OS
+          println("Julia $VERSION")            # Julia version
+          for (_, pkg) in Pkg.dependencies()   # Koma sub-packages
             if occursin("KomaMRI", pkg.name) 
               println("$(pkg.name) $(pkg.version)")
             end
           end
         end
-        ```
       render: Julia
     validations:
       required: true

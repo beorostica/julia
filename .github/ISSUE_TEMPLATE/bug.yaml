@@ -15,13 +15,11 @@ body:
       description: Please describe the steps you took and provide any code executed to reproduce the bug, as well as any error messages that were printed.
       placeholder: |
         I executed this function:
-        
         ```julia
         [...]
         ```
   
         and encountered the following error/wrong/unexpected result:
-
         [...]
       render: Markdown
     validations:

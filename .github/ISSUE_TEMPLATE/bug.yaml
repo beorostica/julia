@@ -48,6 +48,6 @@ body:
         KomaMRI X.X.X
         KomaMRICore X.X.X
         KomaMRIPlots X.X.X
-      render: Julia
+      render: Markdown
     validations:
       required: true

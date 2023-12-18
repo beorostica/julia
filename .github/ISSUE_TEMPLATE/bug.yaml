@@ -30,7 +30,7 @@ body:
       label: Environment
       description: |
         What environment are you using? Run the following code to get all the relevant information:
-        ```
+        ```julia
         using Pkg
         begin
           println("OS $(Base.Sys.MACHINE)")    # OS

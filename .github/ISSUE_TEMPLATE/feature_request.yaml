@@ -1,7 +1,7 @@
 name: Feature Request
-about: Suggest a new julia feature
-title: '[FR]: '
-labels: feature
+description: Suggest a new julia feature
+title: "[FR]: "
+labels: ["feature"¨]
 body:
   - type: textarea
     id: feature-request
